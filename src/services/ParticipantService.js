@@ -6,7 +6,8 @@ const client = axios.create({
 
 const getAll = async () => {
   const response = await client.get();
-  return response.data;
+  const reversedData = response.data.reverse();
+  return reversedData;
 };
 
 const register = async participant => {
