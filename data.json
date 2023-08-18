@@ -41,6 +41,13 @@
       "email": "clark@mail.com",
       "country": "UAE",
       "gitHubLink": "https://github.com/clark-kent"
+    },
+    {
+      "id": "53fa52d0-39d3-48e1-9a08-6134bdcdfe3c",
+      "fullName": "Aryan",
+      "email": "aryaan@gmail.com",
+      "country": "India",
+      "gitHubLink": "aryanpatro"
     }
   ]
 }
