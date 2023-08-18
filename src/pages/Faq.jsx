@@ -46,7 +46,7 @@ const Faq = () => {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body">
-              HacKnight is completely free of cost! You don't have to pay
+              HacKnight is completely free of cost! You do not have to pay
               anything to participate.
             </div>
           </div>

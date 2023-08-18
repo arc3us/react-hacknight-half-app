@@ -48,6 +48,13 @@
       "email": "aryaan@gmail.com",
       "country": "India",
       "gitHubLink": "aryanpatro"
+    },
+    {
+      "id": "865e5477-b46d-48c6-bbb2-52373cc0d80c",
+      "fullName": "Bruce Wayne",
+      "email": "batman@dc.com",
+      "country": "Gotham",
+      "gitHubLink": "batman"
     }
   ]
 }

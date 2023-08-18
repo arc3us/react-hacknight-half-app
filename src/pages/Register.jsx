@@ -4,6 +4,7 @@ import { FaRotate, FaMeteor } from "react-icons/fa6";
 import Loader from "../components/Loader";
 import { v4 as uuid } from "uuid";
 import NoteService from "../services/ParticipantService";
+import { useNavigate } from "react-router-dom";
 
 const Register = () => {
   const [fullName, setFullName] = useState("");
@@ -11,6 +12,7 @@ const Register = () => {
   const [country, setCountry] = useState("");
   const [github, setGithub] = useState("");
   const [loading, setLoading] = useState();
+  const navigate = useNavigate();
 
   const handleFullName = (e) => setFullName(e.target.value);
   const handleEmail = (e) => setEmail(e.target.value);
@@ -33,6 +35,7 @@ const Register = () => {
 
         await NoteService.register(newParticipant);
         window.alert("Participant registered successfully");
+        navigate("/participants");
       } catch (error) {
         window.alert("Error registering participant");
       } finally {
