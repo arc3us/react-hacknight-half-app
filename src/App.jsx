@@ -1,12 +1,13 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NotFound from './pages/NotFound';
-import About from './pages/About';
-import Home from './pages/Home';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import Register from './pages/Register';
-import Participants from './pages/Participants';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NotFound from "./pages/NotFound";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Navbar from "./components/Navbar";
+import Register from "./pages/Register";
+import Participants from "./pages/Participants";
+import FAQ from "./pages/Faq";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/participants" element={<Participants />} />
             <Route path="/about" element={<About />} />
+            <Route path="/FAQ" element={<FAQ />} />
             <Route path="/*" element={<NotFound />} />
           </Routes>
         </div>
